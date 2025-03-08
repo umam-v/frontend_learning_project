@@ -3,7 +3,7 @@ import { useMovieContext } from "../contexts/MovieContext";
 import "../css/Favorites.css";
 function Favorites() {
   const { favorites } = useMovieContext();
-
+  // condition
   if (favorites) {
     return (
       <div className="favorites">
